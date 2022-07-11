@@ -2,12 +2,13 @@ import { ChatTeardropDots } from 'phosphor-react'
 
 import { Popover } from '@headlessui/react'
 import { Widgetform } from './WidgetForm'
-
+import my_app from '../image/my_App.svg'
 export function Widget() {
  
 
     return (
         <Popover className='absolute bottom-4 right-4 md:bottom-11 md:right-11 first-letter:flex flex-col items-end' >
+            <img src={my_app} ></img>
            <Popover.Panel>
             <Widgetform/>
            </Popover.Panel>
